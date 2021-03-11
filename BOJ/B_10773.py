@@ -1,8 +1,10 @@
-K = int(input())
+import sys
+
+K = int(sys.stdin.readline())
 money = []
 
 for _ in range(K):
-    m = int(input())
+    m = int(sys.stdin.readline())
     if (m != 0):
         money.append(m)
     else: money.pop()
