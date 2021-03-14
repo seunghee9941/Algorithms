@@ -1,8 +1,10 @@
-T = int(input())
+import sys
+
+T = int(sys.stdin.readline())
 
 for _ in range(T):
     PS = []
-    S = input()
+    S = sys.stdin.readline().rstrip()
     close = False
     
     for s in S:
